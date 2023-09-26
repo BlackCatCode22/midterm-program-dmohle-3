@@ -87,3 +87,6 @@ Yogi, Smokey, Paddington, Lippy, Bungle, Baloo, Rupert, Winnie the Pooh, Snuggle
 Tiger names:
 
 Tony, Tigger, Amber, Cosimia, Cuddles, Dave, Jiba, Rajah, Rayas, Ryker
+
+Sep 26 loaded new set of classes to midterm: Main.java, Animal.java. and Hyena.java.
+
