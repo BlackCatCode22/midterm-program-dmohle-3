@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -6,12 +8,17 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
 public class Hyena extends Animal {
+    // Create a static member variable that accumulates the number of hyenas created.
+    private static int numOfHyenas = 0;
+
+
     // Create an ArrayList to store the split values read from animalNames.txt
     private static List<String> myListOfHyenaNames = new ArrayList<>();
 
-
-    // Create a static member variable that accumulates the number of hyenas created.
-    private static int numOfHyenas = 0;
+    // write a Getter method to look at the static int numOfHyenas
+    public static int getNumOfHyenas() {
+        return numOfHyenas;
+    }
 
     // Create a constructor that will increment numOfHyenas when a new Hyena object is created.
     public Hyena() {
@@ -55,12 +62,15 @@ public class Hyena extends Animal {
             System.out.println(name);
 
         }
+
+
+
+
+
+
     }
 
-   // write a Getter method.
-   public int getNumOfHyenas() {
-        return numOfHyenas;
-   }
+
 
 
 
